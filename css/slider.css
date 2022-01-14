@@ -1,0 +1,72 @@
+.slick-slider {
+  min-width: 0;
+  position: relative;
+}
+.slick-slider .slick-list {
+  overflow: hidden;
+}
+.slick-slider .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.slick-slider .slick-dots {
+  padding: 100px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.slick-slider .slick-dots li {
+  margin: 0px 5px;
+}
+.slick-slider .slick-dots li button {
+  font-size: 0;
+  width: 11px;
+  height: 11px;
+  border: 1px solid #c8c8c8;
+  border-radius: 50%;
+  background-color: transparent;
+}
+.slick-slider .slick-dots li.slick-active button {
+  background-color: #a9afb3;
+}
+
+.slider {
+  min-width: 0;
+  background-color: #f7f7f7;
+  padding: 120px 0px 60px 0px;
+}
+.slider__item {
+  min-width: 0;
+  text-align: center;
+}
+.slider__icon {
+  margin: 0px 0px 35px 0px;
+}
+.slider__title {
+  margin: 0px 0px 25px 0px;
+  color: #353738;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.slider__title span {
+  color: #848789;
+  font-weight: 300;
+  letter-spacing: 1.8px;
+}
+.slider__text {
+  color: #848789;
+  font-size: 24px;
+  font-style: italic;
+  line-height: 34px;
+}
